@@ -1,0 +1,26 @@
+/* ------------------------------------------------------------------ */
+/* GENERIC VARIABLES COLOR */
+:root {
+    --darkGrey: #2D2D2D;
+    --lightGrey: #151515
+}
+
+/* ------------------------------------------------------------------ */
+/* GENERIC STYLE */
+
+.center-xy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* HEADER */
+.header {
+    height: 150px;
+    background-color: var(--darkGrey);
+}
+
+.header__logo {
+    width: 300px;
+}
