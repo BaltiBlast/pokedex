@@ -1,0 +1,73 @@
+/* POKEMON TYPES */
+.normal {
+    background-color: #b3b3b2;
+  }
+  
+  .fire {
+    background-color: #fb7a18;
+  }
+  
+  .water {
+    background-color: #37b0bd;
+  }
+  
+  .grass {
+    background-color: #6fdb59;
+  }
+  
+  .electric {
+    background-color: #e0c519;
+  }
+  
+  .ice {
+    background-color: #9bded9;
+  }
+  
+  .fighting {
+    background-color: #c03131;
+  }
+  
+  .poison {
+    background-color: #ab55a2;
+  }
+  
+  .ground {
+    background-color: #cebb6d;
+  }
+  
+  .flying {
+    background-color: #98bdbf;
+  }
+  
+  .psychic {
+    background-color: #ec6cec;
+  }
+  
+  .bug {
+    background-color: #bcd059;
+  }
+  
+  .rock {
+    background-color: #bc9c5b;
+  }
+  
+  .ghost {
+    background-color: #5e7289;
+  }
+  
+  .dark {
+    background-color: #656565;
+  }
+  
+  .dragon {
+    background-color: #729dd0;
+  }
+  
+  .steel {
+    background-color: #afb4bc;
+  }
+  
+  .fairy {
+    background-color: #f9abd7;
+  }
+  

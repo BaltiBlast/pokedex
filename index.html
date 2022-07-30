@@ -9,6 +9,10 @@
     <!-- CSS IMPORT -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/type-color.css">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
     <title>Pokedex</title>
 </head>
 
@@ -16,7 +20,7 @@
     <!------------------------------------------------------------------>
     <!-- HEADER -->
     <header class="header center-xy">
-        <img src="./image/pokemon_logo.svg" class="header__logo" alt="pokemon">
+        <img src="./image/pokemon_logo.svg" class="header__logo" alt="pokemon" />
     </header>
 
     <!------------------------------------------------------------------>
@@ -25,7 +29,7 @@
         <!-- ~/ INPUT POKEMON NAME /~ -->
         <div>
             <p class="searchbar__label">Pokemon</p>
-            <input class="searchbar__input b-radius" placeholder="Pokemon name">
+            <input class="searchbar__input b-radius" placeholder="Pokemon name" />
         </div>
 
         <!-------------------------------------------------->
@@ -33,6 +37,7 @@
         <div>
             <p class="searchbar__label">Generation</p>
             <select class="searchbar__select b-radius">
+                <option value="0">All</option>
                 <option value="1">Kanto</option>
                 <option value="2">Johto</option>
                 <option value="3">Hoenn</option>
@@ -49,6 +54,7 @@
         <div>
             <p class="searchbar__label">Type</p>
             <select class="searchbar__select b-radius" placeholder="Pokemon name" type="text">
+                <option value="all">All</option>
                 <option value="normal">Normal</option>
                 <option value="fire">Fire</option>
                 <option value="water">Water</option>
@@ -74,7 +80,8 @@
 
     <!------------------------------------------------------------------>
     <!-- CARDS CONTAINER -->
-    <main></main>
+    <main id="cardsContainer" class="card-container" ></main>
+    <script src="./app.js"></script>
 </body>
 
 </html>

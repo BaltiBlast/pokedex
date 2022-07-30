@@ -11,7 +11,6 @@
 
 /* ------------------------------------------------------------------ */
 /* GENERIC STYLE */
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -61,4 +60,43 @@ body {
 .searchbar__select {
     height: 28px;
     width: 120px;
+}
+
+/* ------------------------------------------------------------------ */
+/* POKEMON CARD */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+
+.card {
+    padding: 16px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid var(--lightGrey);
+    width: 200px;
+}
+
+.card__pokemon-picture {
+    width: 150px;
+}
+
+.card__pokemon-name {
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.card__type-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card__type-paragraph {
+    padding: 6px;
+    border-radius: 7px;
 }
