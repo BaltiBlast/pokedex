@@ -29,14 +29,14 @@
         <!-- ~/ INPUT POKEMON NAME /~ -->
         <div>
             <p class="searchbar__label">Pokemon</p>
-            <input class="searchbar__input b-radius" placeholder="Pokemon name" />
+            <input id="inputPokemonByName" class="searchbar__input b-radius" placeholder="Pokemon name" type="search" />
         </div>
 
         <!-------------------------------------------------->
         <!-- ~/ SELECT POKEMON BY REGION /~ -->
         <div>
             <p class="searchbar__label">Generation</p>
-            <select class="searchbar__select b-radius">
+            <select id="region" class="searchbar__select b-radius">
                 <option value="0">All</option>
                 <option value="1">Kanto</option>
                 <option value="2">Johto</option>
@@ -53,7 +53,7 @@
         <!-- ~/ SELECT POKEMON BY TYPE /~ -->
         <div>
             <p class="searchbar__label">Type</p>
-            <select class="searchbar__select b-radius" placeholder="Pokemon name" type="text">
+            <select id="selectPokemonByType" class="searchbar__select b-radius" placeholder="Pokemon name" type="text">
                 <option value="all">All</option>
                 <option value="normal">Normal</option>
                 <option value="fire">Fire</option>
